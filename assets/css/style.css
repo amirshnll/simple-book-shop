@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face
+{
+	font-family:dana;
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/vazir.eot);
+	src:url(../fonts/vazir.eot?#iefix) format("embedded-opentype"),url(../fonts/vazir.woff2) format("woff2"),url(../fonts/vazir.woff) format("woff")
+}
+
+html,body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	background-color:#f8f8f8!important;
+	font-family:"dana"!important
+}
+
+a
+{
+	text-decoration:none!important
+}
+
+div
+{
+	box-sizing:border-box
+}
+
+.header
+{
+	padding:20px
+}
+
+.header .nav
+{
+	margin-top:34px
+}
+
+.home
+{
+	margin:100px 0
+}
+
+.home .card img
+{
+	max-height:300px;
+	object-fit:cover
+}
+
+.home .card
+{
+	margin-bottom:20px
+}
+
+.footer
+{
+	padding:60px 35px;
+	line-height:35px
+}
+
+.home p
+{
+	line-height:45px
+}
+
+.book-detail
+{
+	display:right!important
+}
+
+.book-image
+{
+	display:left!important
+}
